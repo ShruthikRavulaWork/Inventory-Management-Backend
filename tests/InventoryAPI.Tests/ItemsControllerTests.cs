@@ -23,7 +23,6 @@ namespace InventoryAPI.Tests
             _itemServiceMock = new Mock<IItemService>();
             _controller = new ItemsController(_itemServiceMock.Object);
 
-            // Mock a user principal for authorization checks
             var user = new ClaimsPrincipal(new ClaimsIdentity(new Claim[]
             {
                 new Claim(ClaimTypes.NameIdentifier, "1"),

@@ -1,7 +1,8 @@
 Inventory-Management/wwwroot/images/
 Inventory-Management/bin/
-inventory-ui\node_modules\
+inventory-ui/
 .vs/
 Inventory-Management/obj/
 Inventory-Management.sln
-Inventory-Management/tests/InventoryAPI.Tests/obj/
+/tests/InventoryAPI.Tests/obj/
+/tests/InventoryAPI.Tests/bin/
